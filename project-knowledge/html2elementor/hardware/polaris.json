@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "profile_id": "polaris",
+  "project": "HTML2Elementor",
+  "label": "POLARIS (نام فایل ارسالی)",
+  "recorded_on": "2026-09-23",
+  "purpose": "مرجع پیشنهادهای بعدی مدل، موتور محلی، مصرف حافظه و تنظیمات پروژه، طبق درخواست کاربر",
+  "source": {
+    "kind": "user_uploaded_cpu_z_report",
+    "filename": "POLARIS.txt",
+    "tool_version": "CPU-Z 2.16.0.x64",
+    "original": "POLARIS-original.txt",
+    "sha256": "0f59a5c0da4b29befdc7e2d2ba53554656816bab8c23b013fa885452e5b1ca0e",
+    "report_generated_at": null,
+    "verification": "استخراج از گزارش کاربر؛ نه اسکن زنده یا بنچمارک توسط دستیار"
+  },
+  "cpu": {
+    "model": "Intel Core i5-12400",
+    "architecture": "Alder Lake",
+    "cores": 6,
+    "threads": 12,
+    "socket": "LGA1700",
+    "base_ghz": 2.5,
+    "max_ghz": 4.4,
+    "instructions_relevant_to_inference": [
+      "AVX",
+      "AVX2",
+      "FMA3"
+    ]
+  },
+  "ram": {
+    "capacity_gb": 32,
+    "type": "DDR4",
+    "channels": "dual channel (2 x 64-bit)",
+    "modules": 2,
+    "module_capacity_gb": 16,
+    "module_vendor": "Corsair",
+    "dram_vendor": "Samsung",
+    "part_number": "CMH32GX4M2Z3200C16",
+    "rated_xmp_mt_s": 3200,
+    "observed_clock_mhz": 1330.1,
+    "observed_effective_mt_s_approx": 2660.2,
+    "dmi_configured_speed_raw": "2667 MHz",
+    "note": "نرخ مؤثر مشاهده‌شده حدود DDR4-2666 است؛ قابلیت XMP-3200 به معنی فعال بودن آن نیست."
+  },
+  "gpus": [
+    {
+      "model": "NVIDIA GeForce RTX 3050",
+      "primary": true,
+      "board_vendor": "MSI",
+      "dedicated_vram_gb": 8,
+      "memory_type": "GDDR6",
+      "memory_bus_bits": 128,
+      "gpu_family": "GA107-A",
+      "cores_reported": 2560,
+      "tensor_cores_reported": 80,
+      "power_limit_w": 115,
+      "driver_version": "32.0.16.1047",
+      "driver_date_reported": "2026-05-19",
+      "wddm": "3.2"
+    },
+    {
+      "model": "Intel UHD Graphics 730",
+      "primary": false,
+      "integrated": true,
+      "dedicated_vram_gb": null,
+      "driver_version": "32.0.101.7040",
+      "note": "عدد Memory size = 32 GB در گزارش این iGPU را VRAM اختصاصی محسوب نکنید و به ۸ گیگابایت NVIDIA اضافه نکنید."
+    }
+  ],
+  "motherboard": {
+    "vendor": "MSI",
+    "model": "MAG B660 TOMAHAWK WIFI DDR4 (MS-7D41)",
+    "chipset": "Intel B660",
+    "revision": "1.0"
+  },
+  "bios": {
+    "vendor": "American Megatrends International LLC.",
+    "version": "2.E0",
+    "date": "2023-09-15",
+    "date_source": "DMI BIOS (بخش بالای BIOS تاریخ مخدوش دارد)",
+    "uefi": true
+  },
+  "os": {
+    "name": "Microsoft Windows 11 Professional",
+    "architecture": "x64",
+    "build": "26200.7171",
+    "directx": "12.0"
+  },
+  "storage": [
+    {
+      "model": "Samsung SSD 990 PRO 1TB",
+      "bus": "NVMe",
+      "reported_capacity_gb": 931.5,
+      "volumes": [
+        {
+          "letter": "C",
+          "reported_size_gb": 442.4,
+          "available_percent_at_report": 26.3
+        },
+        {
+          "letter": "D",
+          "reported_size_gb": 488.3,
+          "available_percent_at_report": 14.1
+        }
+      ]
+    },
+    {
+      "model": "ADATA SX8200PNP",
+      "bus": "NVMe",
+      "reported_capacity_gb": 476.9,
+      "volumes": [
+        {
+          "letter": "G",
+          "reported_size_gb": 476.9,
+          "available_percent_at_report": 46.3
+        }
+      ]
+    },
+    {
+      "model": "SPCC Solid State Disk",
+      "bus": "SATA",
+      "reported_capacity_gb": 476.9,
+      "volumes": [
+        {
+          "letter": "F",
+          "reported_size_gb": 476.9,
+          "available_percent_at_report": 50.0
+        }
+      ]
+    },
+    {
+      "model": "WDC WD20PURZ-85GU6Y0",
+      "bus": "SATA",
+      "reported_capacity_gb": 1863.0,
+      "volumes": [
+        {
+          "letter": "E",
+          "reported_size_gb": 1369.8,
+          "available_percent_at_report": 18.2
+        },
+        {
+          "letter": "H",
+          "reported_size_gb": 493.2,
+          "available_percent_at_report": 42.9
+        }
+      ]
+    }
+  ],
+  "monitor": {
+    "model": "LG FHD",
+    "diagonal_inches": 24,
+    "reported_max_resolution": "1920 x 1080 @ 60 Hz"
+  },
+  "recommendation_context": {
+    "supersedes": [
+      "RAM سیستم نامشخص است",
+      "نسخه ویندوز نامشخص است"
+    ],
+    "baseline": "Windows x64 + i5-12400 / 6C12T + 32 GB RAM + RTX 3050 / 8 GB dedicated VRAM",
+    "previous_starting_model": "Qwen3-VL-4B-Instruct Q4_K_M + matching Q8_0 mmproj",
+    "constraints": [
+      "حافظه RAM و VRAM جدا محاسبه شوند؛ ۳۲ گیگابایت RAM جایگزین ۸ گیگابایت VRAM نیست.",
+      "برای سرعت بارگذاری مدل، NVMe را در نظر بگیرید؛ فضای آزاد گزارش تاریخی است و پیش از دانلود بررسی شود.",
+      "نصب CUDA Toolkit یا موتور CUDA از گزارش CPU-Z مشخص نیست.",
+      "سرعت و حافظه واقعی Qwen روی این دستگاه هنوز اندازه‌گیری نشده است.",
+      "این رکورد برای مراجعه در ادامهٔ پروژه است؛ برنامه فعلی هنوز آن را خودکار برای تنظیم مدل نمی‌خواند."
+    ],
+    "not_verified": [
+      "available_RAM_now",
+      "free_VRAM_now",
+      "CUDA_runtime_or_toolkit_installation",
+      "CUDA_engine_installation",
+      "model_benchmarks",
+      "report_generation_date"
+    ]
+  },
+  "privacy": {
+    "normalized_profile_omits": [
+      "hardware_serial_numbers",
+      "system_UUID",
+      "device_paths"
+    ],
+    "raw_report_contains_device_identifiers": true,
+    "distribution": "بانک اطلاعات کنار پروژه و خارج از سورس قابل‌بسته‌بندی و پوشه web نگهداری شود؛ داخل ZIP عمومی قرار نگیرد."
+  }
+}
